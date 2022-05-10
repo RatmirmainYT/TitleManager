@@ -79,8 +79,12 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]My Server}'
+  - '&uReallyBetterWorld'
   - ''
+  -'&fОнлайн&B:&c%(online)&e'
+  -'&fПокупка доната &B- &cvk.com/Ратмир_Майн'
+  -''
+  -'&fСписок Игроков&B:&r'
 
   # Sets the footer of the player list.
   #
@@ -113,10 +117,10 @@ welcome-title:
   enabled: true
 
   # The title shown.
-  title: 'Welcome to My Server'
+  title: 'Добро пожаловать!'
 
   # The subtitle shown.
-  subtitle: 'Hope you enjoy your stay'
+  subtitle: 'Лучший гриферский сервер!'
 
   # The time it takes for the title to fade into the screen. (In ticks)
   fade-in: 20
@@ -153,13 +157,13 @@ welcome-actionbar:
   enabled: true
 
   # The message shown.
-  title: 'Welcome to My Server'
+  title: 'Welcome'
 
   # The time it takes for the message to appear. (In ticks)
   delay: 20
 
   # The message shown when the player joins the server for the first time.
-  first-join: 'Welcome to My Server, this is your first time!'
+  first-join: 'Welcome!'
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -203,16 +207,16 @@ scoreboard:
 
   # The lines of the scoreboard (Maximum of 15 lines allowed)
   lines:
-  - '&b&m----------------------------------'
-  - '&b> &3&lPlayer Name:'
-  - '&b%{name}'
-  - '&r'
+  - '&7'
+  - '&1ИНФОРМАЦИЯ&2'
+  - ''
+  - ''
   - '&b> &3&lPing:'
   - '&b%{ping} MS'
-  - '&r&r'
-  - '&b> &3&lServer Time:'
-  - '&b%{server-time}'
-  - '&b&m----------------------------------&r'
+  - ''
+  - ''
+  - ''
+  - '
 
   # A list of worlds that the Scoreboard should not be shown in.
   disabled-worlds:
